@@ -1,0 +1,5 @@
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Infrastructure\obj\Debug\net9.0\NatyHi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Infrastructure\obj\Debug\net9.0\NatyHi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Infrastructure\obj\Debug\net9.0\NatyHi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Infrastructure\obj\Debug\net9.0\NatyHi.Infrastructure.AssemblyInfo.cs
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Infrastructure\obj\Debug\net9.0\NatyHi.Infrastructure.csproj.CoreCompileInputs.cache

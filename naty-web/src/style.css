@@ -1,0 +1,104 @@
+:root {
+  /* Windows 11 Color Palette */
+  --mica-bg: #f3f3f3; /* Light mode default */
+  --mica-active: #ffffff;
+  --accent-color: #0078d4; /* Windows Blue */
+  --text-primary: #1e1e1e;
+  --text-secondary: #5d5d5d;
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  --radius-window: 12px;
+  --radius-control: 6px;
+  
+  /* Typography */
+  --font-fluent: 'Segoe UI Variable', 'Segoe UI', 'sans-serif';
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mica-bg: #202020;
+    --mica-active: #2c2c2c;
+    --text-primary: #ffffff;
+    --text-secondary: #d0d0d0;
+    --glass-border: rgba(255, 255, 255, 0.08);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-fluent);
+  background-color: var(--mica-bg);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Mica Effect Simulation */
+  background-image: radial-gradient(circle at 50% 0%, rgba(255,255,255,0.1) 0%, transparent 70%);
+}
+
+.win11-window {
+  background: rgba(255, 255, 255, 0.6); /* Glassmorphism base */
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-window);
+  box-shadow: var(--glass-shadow);
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .win11-window {
+    background: rgba(32, 32, 32, 0.6);
+  }
+}
+
+.fluent-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid transparent; /* Bottom border effect handled via box-shadow usually, keeping simple here */
+  border-bottom: 2px solid #888;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius-control);
+  font-family: inherit;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.fluent-input:focus {
+  outline: none;
+  border-bottom-color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.fluent-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: var(--radius-control);
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.fluent-button:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  background: -webkit-linear-gradient(45deg, #0078d4, #00bcf2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

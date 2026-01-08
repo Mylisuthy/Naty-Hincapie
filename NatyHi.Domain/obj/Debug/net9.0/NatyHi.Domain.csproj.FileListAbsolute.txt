@@ -1,0 +1,11 @@
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\bin\Debug\net9.0\NatyHi.Domain.deps.json
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\bin\Debug\net9.0\NatyHi.Domain.dll
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\bin\Debug\net9.0\NatyHi.Domain.pdb
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\NatyHi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\NatyHi.Domain.AssemblyInfoInputs.cache
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\NatyHi.Domain.AssemblyInfo.cs
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\NatyHi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\NatyHi.Domain.dll
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\refint\NatyHi.Domain.dll
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\NatyHi.Domain.pdb
+C:\Users\MSUTHY\Desktop\Practice\NatyHi\NatyHi.Domain\obj\Debug\net9.0\ref\NatyHi.Domain.dll
