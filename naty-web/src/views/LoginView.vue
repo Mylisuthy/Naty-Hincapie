@@ -1,11 +1,22 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import { useAuthStore } from '../stores/auth';
+import { useRouter } from 'vue-router';
 
 const email = ref('');
 const password = ref('');
+const authStore = useAuthStore();
+const router = useRouter();
 
-const handleLogin = () => {
-  console.log('Login attempt', email.value);
+const handleLogin = async () => {
+  try {
+    await authStore.login(email.value, password.value);
+    // Redirigir al dashboard o home
+    alert('Login Exitoso! Bienvenido a Naty.');
+  } catch (error) {
+    alert('Error al iniciar sesión');
+    console.error(error);
+  }
 };
 </script>
 
